@@ -1,0 +1,30 @@
+{
+  "context": {
+    "intent": "TEAM_23_STATS_INTENT",
+    "attributes": {
+      "user_id": [
+        "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE="
+      ]
+    },
+    "attributesV2": {
+      "user_id": [
+        {
+          "id": 0,
+          "value": "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE=",
+          "nestedIn": [],
+          "overlapsWith": [],
+          "extras": {}
+        }
+      ]
+    },
+    "tokens": {},
+    "locale": "de",
+    "configuration": {}
+  },
+  "session": {
+    "id": "lBPv9qgfD-17Af_QQQfl9dcX",
+    "attributes": {},
+    "new": true
+  },
+  "spiVersion": "1.1"
+}

@@ -1,0 +1,42 @@
+{
+  "context": {
+    "intent": "TEAM_23_START_INTENT",
+    "attributes": {
+      "category": [
+        " Projekt Hubraum"
+      ],
+      "user_id": [
+        "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE="
+      ]
+    },
+    "attributesV2": {
+      "category": [
+        {
+          "id": 0,
+          "value": " Projekt Hubraum",
+          "nestedIn": [],
+          "overlapsWith": [],
+          "extras": {}
+        }
+      ],
+      "user_id": [
+        {
+          "id": 1,
+          "value": "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE=",
+          "nestedIn": [],
+          "overlapsWith": [],
+          "extras": {}
+        }
+      ]
+    },
+    "tokens": {},
+    "locale": "de",
+    "configuration": {}
+  },
+  "session": {
+    "id": "mnVaaNnJi9EgE-C5eAPS0YuP",
+    "attributes": {},
+    "new": true
+  },
+  "spiVersion": "1.1"
+}

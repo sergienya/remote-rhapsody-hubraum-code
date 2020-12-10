@@ -1,0 +1,16 @@
+{
+ "v2": {
+ "showsInCatalog": true,
+ "displayName": "Time Tracker",
+ "headline": "Track all your activities!",
+ "description": "Just say 'Starte die Arbeit'/'Starte die Pause' to start tracking, 'Ich bin fertig' to stop tracking, and 'Zeige Statistiken' to show the statistics.",
+ "iconUrl": "https://jimdo-storage.freetls.fastly.net/image/70794107/fc77862d-4694-43a5-9a14-c105f6fd1c47.png",
+ "design": {
+ "backgroundColor": "#4873bb"
+ },
+ "examplePhrases": [
+   "Starte die Arbeit", "Starte die Pause", "Ich bin fertig", "Zeige Statistiken"
+ ]
+ },
+ "fileVersion": 1
+}
