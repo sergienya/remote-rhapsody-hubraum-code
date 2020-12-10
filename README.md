@@ -32,13 +32,18 @@ The tracking is stopped automatically once you start another tracker. But you ca
 ### Show statistics
 How was the day? Ask you Magenta ***Zeige Statistiken***!
 
+![statistics](https://s3.amazonaws.com/briefing.sounds/photo_2020-12-10_20-28-53.jpg)
 
 
-## The project is brought to you by
+
+## Who we are 
+
+The project is brought to you by
 
 [![voiceagenten](https://jimdo-storage.freetls.fastly.net/image/70794107/fc77862d-4694-43a5-9a14-c105f6fd1c47.png)](https://voiceagenten.com)
 
 as a part of
+
 [![remove-rhapsody-hackathon](https://res.cloudinary.com/ideation/image/upload/w_1920,c_fit,q_auto,f_auto,dpr_auto/n8bgtrq7zfatrjwh14rb)](https://remote-rhapsody-platform.hubraum.com/)
 
 
