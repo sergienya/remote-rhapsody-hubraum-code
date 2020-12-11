@@ -10,7 +10,7 @@
 from skill_sdk import skill, Response, tell, Card, context
 #from skill_sdk.intents import context
 from skill_sdk.l10n import _
-import shelve
+from skill_sdk.services.persistence import PersistenceService
 import datetime
 import time
 from .srg_utils import get_user_id, is_same_date, convert_to_duration
@@ -32,31 +32,30 @@ def handler() -> Response:
     user_id = get_user_id(context)
     print(user_id)
 
+    db = PersistenceService().get()
+    if user_id not in db:
+        msg = _('NO_STATS')
+        response = tell(msg)
+        return response
 
-    with shelve.open('db.txt') as db:
-        if user_id not in db:
-            msg = _('NO_STATS')
-            response = tell(msg)
-            return response
 
+    user_data = db[user_id]
+    print(user_data)
 
-        user_data = db[user_id]
-        print(user_data)
+    # if the date is not today, remove everything
+    today = datetime.date.today()
+    today = {'month': today.month, 'day': today.day}
+    print(today)
 
-        # if the date is not today, remove everything
-        today = datetime.date.today()
-        today = {'month': today.month, 'day': today.day}
-        print(today)
+    if 'date' not in user_data or not is_same_date(today, user_data['date']) or 'data' not in user_data or len(user_data['data']) == 0:
+        print("no stats for today")
+        msg = _('NO_STATS')
+        response = tell(msg)
+        return response
 
-        if 'date' not in user_data or not is_same_date(today, user_data['date']) or 'data' not in user_data or len(user_data['data']) == 0:
-            print("no stats for today")
-            msg = _('NO_STATS')
-            response = tell(msg)
-            return response
-
-        # Get stats
-        data = user_data['data']
-        card_text = "\n".join([item['cat'].strip().title() + ": " + check_none(convert_to_duration(item['sum_time'])) for item in data])
+    # Get stats
+    data = user_data['data']
+    card_text = "\n".join([item['cat'].strip().title() + ": " + check_none(convert_to_duration(item['sum_time'])) for item in data])
 
     # Get stats for today
     #card_text = 'Proj 1: 5h 35m\nProj 2: 1h 3m'

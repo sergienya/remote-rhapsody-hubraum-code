@@ -40,7 +40,11 @@ msgstr "Deine Zeiterfassungen {date}"
 msgid "STATS_TEXT"
 msgstr "Hier sind deine Statistiken"
 
+msgid "CATEGORY_WORK"
+msgstr "arbeit"
 
+msgid "CATEGORY_BREAK"
+msgstr "pause"
 
 msgid "HELLOAPP_HELLO"
 msgstr "Hallo"
