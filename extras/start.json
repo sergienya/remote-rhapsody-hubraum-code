@@ -6,7 +6,7 @@
         " Projekt Hubraum"
       ],
       "user_id": [
-        "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE="
+        "1345"
       ]
     },
     "attributesV2": {
@@ -22,14 +22,16 @@
       "user_id": [
         {
           "id": 1,
-          "value": "yIRlDE1Oy4kZ1+u8Q45b/uKRqPT4ulLbA99TmYXu+JE=",
+          "value": "1345",
           "nestedIn": [],
           "overlapsWith": [],
           "extras": {}
         }
       ]
     },
-    "tokens": {},
+    "tokens": {
+    "cvi": "eyJub25jZSI6IkhBcnU1QXpQa2lTdW90dFEiLCJlbmNyeXB0ZWRQbGFpblRva2VuIjoiUmIzSFdnL0RGN3ZkWlQ3MlZ5Y1E2VkpzQ0NpNlVYQloraWtybmpwc0N2Y3dqVnhDODNDbXdsL2s0S08rSWwvbm5RajZZR0ppc05XMGIvQVN5WkRXMjJmemsxYnhOS1U3R0tXdGJKMXFiQnZVOXhKMHlBODJUaTdyY1J3Zkk5QmFnOUJmaWtrSlY5ZjBVcEpyYWJGVmk4MVRDejhqYzZ6SjlFSWhoZkdJT3dMWU5GVXhLSzY4Y2g1dFUrcVVkWkZlMm9KbmRNemZxczYxa3FnTlE3MnlJcThQZ3BYVkM0M21vaEN6K2FEQkJDS0VMTGRZOVZ1RUhJVyt4VnFaZHMveXNvYys4bU5ucHB2M3VucFZjVjQrbVNHaDFzb3A3MmRMcjcwejNLeS9YUmNtS1gzK1JRd3VoRFZoM3FjVWhvakdIV01WL2NzN3dpNlNzczQyc240VDFSc3oyUHdxeTkxVk1Pb0ZEOW9KN2F5Wnp6TWd2dE9admJQQ3RiVldNM2NYM1E9PSJ9"
+  },
     "locale": "de",
     "configuration": {}
   },
