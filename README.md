@@ -3,9 +3,9 @@
 [Project page at Hubraum](https://remote-rhapsody-platform.hubraum.com/#/projects/5fbb8cbe7e2b89001b4c2c22)
 
 ## No time to read, show me the demo!
-Here it is: 
+Here it is (click on the picture): 
 [![Watch the video](https://img.youtube.com/vi/tPiLchjR8Qc/maxresdefault.jpg)](https://www.youtube.com/watch?v=tPiLchjR8Qc)
-
+[Link to Youtube](https://www.youtube.com/watch?v=tPiLchjR8Qc)
 ## Why are we here?
 ### Track all your activities!
 An easy tool to track all your daily activities and routines by simply dropping a word to your Magenta. 
